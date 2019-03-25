@@ -32,7 +32,9 @@ otp_days3 = []
 otp_days4 = []
 otp_days5 = []
 
+
 # TODO: считывать из файла сотрудников: формат: ФИО, дата начала/кол-во дней
+# TODO: переделать файл со списком, хранить в xls, json, xml
 # TODO: нарисовать календарь в xls (с праздниками и выходными)
 # TODO: нарисовать календарь в pdf
 # TODO: нарисовать календарь в png
@@ -61,7 +63,7 @@ def read_from_ini_file(year):
             all_days_all = all_days_all + int(all_days[i])
             #print(sotr[i], ' ', all_days[i])
 
-        #print("\nИтого дней на всех:", all_days_all)
+        print("\nИтого дней на всех:", all_days_all)
 
     else:
         #print("нет файла", str(year)+'.txt')
