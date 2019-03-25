@@ -17,6 +17,8 @@ def BubbleSort(A):
             if A[i] > A[i + 1]:
                 A[i], A[i + 1] = A[i + 1], A[i]
     return(A)
+
+
 print(BubbleSort([1, 10, 13, -9]))
 
 
@@ -150,8 +152,6 @@ while left <= right:
     left += 1
 
 print(sample)
-
-
 
 
 def raschet2():
