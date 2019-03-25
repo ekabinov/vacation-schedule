@@ -1,0 +1,53 @@
+[options]
+sotr_count=5
+
+[sotrudnik1]
+id=1
+name=Иванов Иван Иванович
+days_total=56
+otp1=01.01.2017
+day1=30
+otp2=01.05.2017
+day2=24
+
+[sotrudnik2]
+id=2
+name=Петров Петр Петрович
+days_total=60
+otp1=01.01.2017
+day1=30
+otp2=01.05.2017
+day2=24
+
+[sotrudnik3]
+id=3
+name=Калинина Елена Сергеевна
+days_total=60
+otp1=01.01.2017
+day1=30
+otp2=01.05.2017
+day2=24
+
+[sotrudnik4]
+id=4
+name=Шарова Людмила Александровна
+days_total=60
+otp1=01.01.2017
+day1=30
+otp2=01.05.2017
+day2=24
+
+[sotrudnik5]
+id=5
+name=Никитос Никита Никитович
+days_total=60
+otp1=01.01.2017
+day1=30
+otp2=01.05.2017
+day2=24
+
+
+[exclude_sotr1]
+ex_id1=1
+ex_id2=2
+
