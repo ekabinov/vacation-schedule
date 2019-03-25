@@ -61,12 +61,12 @@ def read_from_ini_file(year):
 
         for i in range(len(sotr)):
             all_days_all = all_days_all + int(all_days[i])
-            #print(sotr[i], ' ', all_days[i])
+            # print(sotr[i], ' ', all_days[i])
 
         print("\nИтого дней на всех:", all_days_all)
 
     else:
-        #print("нет файла", str(year)+'.txt')
+        # print("нет файла", str(year)+'.txt')
         exit(1)
 
 
