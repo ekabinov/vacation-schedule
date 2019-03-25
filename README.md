@@ -1,2 +1,0 @@
-# vacation-schedule
-График отпусков
